@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app') 
 
 <!-- index -->
 <!DOCTYPE html>
@@ -11,40 +11,11 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
   <link rel="stylesheet" href="css/CSS.css">
-  
+ 
+</style>
+
 </head>
 <body>
-<!-- barra de navegación para que se ajuste al escalado de la página -->
-<!-- barra de navegación -->
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <!-- Brand/logo -->
-  
-  <!-- Links -->
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="home">Inicio</a>
-    </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Foro
-      </a>
-      <div class="dropdown-menu">
-          <a class="dropdown-item" href="matematicas">Matematicas</a>
-          <a class="dropdown-item" href="lengua">Lengua</a>
-          <a class="dropdown-item" href="fisica">Física</a>
-      </div>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="profesores">Profesores</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="contacto">Contacto</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="perfil">Perfil</a>
-    </li>
-</nav>
-<!-- barra de navegación fin -->
 
 <!-- barra de navegación -->
 
@@ -67,14 +38,15 @@
       </div>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="profesores">Profesores</a>
+      <a class="nav-link" href="welcome">PruebaForo</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="contacto">Contacto</a>
     </li>
-    <li class="nav-item">
+  <!--  <li class="nav-item">
       <a class="nav-link" href="perfil">Perfil</a>
-    </li>
+    </li>-->
+    
 </nav>
 <!-- barra de navegación fin -->
 
@@ -85,10 +57,6 @@
   <div class="jumbotron">
     <h1>StackOverLearn</h1>
   </div> <!-- fin jumbotron -->
-  <div class="jumbotron">
-  	<p>Nuestro producto ofrece un servicio, a modo de red social, que permite a sus usuarios buscar y ponerse en contacto con otras personas para ofrecer un servicio educativo, además de ofrecer un espacio para compartir conocimiento.</p>
-  </div>
-</div> <!-- fin container -->
 
 <!-- carousel --> 
 <div id="demo" class="carousel slide center-block" data-ride="carousel">
@@ -125,12 +93,21 @@
   </a>
 </div>
 <!-- carousel fin -->
+  <div class="jumbotron">
+  	<p>Nuestro producto ofrece un servicio, a modo de red social, que permite a sus usuarios buscar y ponerse en contacto con otras personas para ofrecer un servicio educativo, además de ofrecer un espacio para compartir conocimiento.</p>
+    <p>Nuestro producto les ofrece tanto a alumnos como profesores un espacio donde
+pueden ayudarse mutuamente. De esta forma, los alumnos que necesitan ayuda en sus estudios pueden
+encontrarla en nuestra página y a su vez se incentiva una dinámica de aprendizaje y
+beneficio mutuo.</p>
+    <p>Si quiere recibir noticias, avisos y diversas notificaciones, no dude en registrarse para formar parte de esta gran familia!. Para registrarse, clicke en el banner de Usuarios para mas información</p>
+    <p>Atentamente, equipo de StackOverLearn</p>
+  </div>
+</div> <!-- fin container -->
 
+  <script type="application/javascript" src="js/cookies.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
-  <script type="application/javascript" src="js/cookies.js"></script>
-
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -12,7 +12,7 @@
             {!! $errors->first('apellidos', '<div class="invalid-feedback">:message</p>') !!}
         </div>
         <div class="form-group">
-            {{ Form::label('pass') }}
+            {{ Form::label('contraseña') }}
             {{ Form::text('pass', $usuario->pass, ['class' => 'form-control' . ($errors->has('pass') ? ' is-invalid' : ''), 'placeholder' => 'Pass']) }}
             {!! $errors->first('pass', '<div class="invalid-feedback">:message</p>') !!}
         </div>
@@ -24,6 +24,6 @@
 
     </div>
     <div class="box-footer mt20">
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Enviar</button>
     </div>
 </div>

@@ -125,17 +125,19 @@ label{
           <a class="dropdown-item" href="fisica">Física</a>
       </div>
     </li>
-    <li class="nav-item">
+   <!-- <li class="nav-item">
       <a class="nav-link" href="profesores">Profesores</a>
-    </li>
+    </li> -->
     <li class="nav-item">
       <a class="nav-link" href="contacto">Contacto</a>
     </li>
-    <li class="nav-item">
+   
+    <!-- <li class="nav-item">
       <a class="nav-link" href="perfil">Perfil</a>
-    </li>
+    </li> -->
 </nav>
 <!-- barra de navegación fin -->
+
 
 <!-- formulario -->
 <div class="container">
@@ -166,14 +168,14 @@ label{
         </div>
        <div>
           <h3 class="respuestas">
-            <a>¿Cuanto es 1 + 1?</a>
+            <a>¿Quien escribió el Quijote?</a>
           </h3>
         </div>
-        <div><p style="text-align:left;" class="respuestas">Soy subnormal y no se hacer el 1 + 1</p>
+        <div><p style="text-align:left;" class="respuestas">No me fio de lo que pone en Wikipedia. ¿Algún profesor me puede ayudar?</p>
         </div>
         <div>
-          <input class="botones_respuestas" type="submit" value="Responder">
-          <input class="botones_respuestas" type="submit" value="Ver respuestas">
+          <input class="botones_respuestas" type="submit" value="Responder" onclick="location.href='RespuestasMat';">
+          <input class="botones_respuestas" type="submit" value="Ver respuestas" onclick="location.href='RespuestasMat';">
         </div>
     </div>
     <!-- datos personales fin -->

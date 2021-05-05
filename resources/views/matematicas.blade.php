@@ -125,21 +125,26 @@ label{
           <a class="dropdown-item" href="fisica">Física</a>
       </div>
     </li>
-    <li class="nav-item">
+   <!-- <li class="nav-item">
       <a class="nav-link" href="profesores">Profesores</a>
-    </li>
+    </li> -->
     <li class="nav-item">
       <a class="nav-link" href="contacto">Contacto</a>
     </li>
-    <li class="nav-item">
+    <!-- <li class="nav-item">
+      <a class="nav-link" href="chat">Chat</a>
+    </li> -->
+    <!-- <li class="nav-item">
       <a class="nav-link" href="perfil">Perfil</a>
-    </li>
+    </li> -->
 </nav>
 <!-- barra de navegación fin -->
 
+
+
 <!-- formulario -->
 <div class="container">
-  <h1 style="color:black;">Foro Matemáticas</h1>
+  <h1 style="color:black;" >Foro Matematicas</h1>
   <div class="jumbotron">
 
     <form action="/action_page.php">
@@ -166,16 +171,14 @@ label{
         </div>
        <div>
           <h3 class="respuestas">
-            <a>¿Cuanto es 1 + 1?</a>
+            <a>¿Cual es la integral del seno entre 0 y pi?</a>
           </h3>
         </div>
-        <div><p style="text-align:left;" class="respuestas">Soy subnormal y no se hacer el 1 + 1</p>
+        <div><p style="text-align:left;" class="respuestas">Necesito el resultado para acabar un trabajo de la universidad.</p>
         </div>
         <div>
-          <form action="RespuestasMat.html">
-            <input class="botones_respuestas" type="submit" value="Responder" href="">
-            <input class="botones_respuestas" type="submit" value="Ver respuestas">
-          </form>
+          <input class="botones_respuestas" type="submit" value="Responder" onclick="location.href='RespuestasMat';">
+          <input class="botones_respuestas" type="submit" value="Ver respuestas" onclick="location.href='RespuestasMat';">
         </div>
     </div>
     <!-- datos personales fin -->

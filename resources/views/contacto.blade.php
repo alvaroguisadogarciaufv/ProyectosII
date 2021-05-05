@@ -33,15 +33,15 @@
           <a class="dropdown-item" href="fisica">Física</a>
       </div>
     </li>
-    <li class="nav-item">
+    <!-- <li class="nav-item">
       <a class="nav-link" href="profesores">Profesores</a>
-    </li>
+    </li> -->
     <li class="nav-item">
       <a class="nav-link" href="contacto">Contacto</a>
     </li>
-    <li class="nav-item">
+    <!-- <li class="nav-item">
       <a class="nav-link" href="perfil">Perfil</a>
-    </li>
+    </li> -->
 </nav>
 <!-- barra de navegación fin -->
 
@@ -65,15 +65,16 @@
           <a class="dropdown-item" href="fisica">Física</a>
       </div>
     </li>
-    <li class="nav-item">
+    <!-- <li class="nav-item">
       <a class="nav-link" href="profesores">Profesores</a>
-    </li>
+    </li> -->
     <li class="nav-item">
       <a class="nav-link" href="contacto">Contacto</a>
     </li>
-    <li class="nav-item">
+    
+    <!-- <li class="nav-item">
       <a class="nav-link" href="perfil">Perfil</a>
-    </li>
+    </li> -->
 </nav>
 <!-- barra de navegación fin -->
 
@@ -118,29 +119,59 @@
 
     <hr>
     <!-- datos personales  -->
-    <h1>Datos Personales</h1>
-    <div class="container-fluid bg-1 text-center">
-      <div class="datos">
-        <img src="../multimedia/imagenes/perfil.png" style="max-width: 30%">
+    	<!-- datos personales  -->
+    	<h1>Datos Personales</h1>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <img src="multimedia/imagenes/carlos.png" style="max-width: 96.3%">
+          <p>Nombre: Carlos</p>
+          <p>Apellidos: Castillo González</p>
+          <p>Email: carlos.castillog7@gmail.com</p>
+          <p>Teléfono: 673055072</p>
+        </div>
+        <div class="col-sm">
+          <img src="multimedia/imagenes/guisado.png" style="max-width: 100%">
+          <p>Nombre: Álvaro</p>
+          <p>Apellidos: Guisado García</p>
+          <p>Email: aguisado.ufv@gmail.com</p>
+          <p>Teléfono: 622552649</p>
+        </div>
+        <div class="col-sm">
+          <img src="multimedia/imagenes/ortiz.png" style="max-width: 100%">
+          <p>Nombre: Álvaro</p>
+          <p>Apellidos: Ortiz Ballesteros</p>
+          <p>Email: xzitrox222@gmail.com</p>
+          <p>Teléfono: 648801269</p>
+        </div>
+        <div class="col-sm">
+          <img src="multimedia/imagenes/jato.png" style="max-width: 100%">
+          <p>Nombre: Javier</p>
+          <p>Apellidos: Torres Solis</p>
+          <p>Email: javi31498@gmail.com</p>
+          <p>Teléfono: 606264989</p>
+        </div>
+        <div class="col-sm">
+          <img src="multimedia/imagenes/marcos.png" style="max-width: 100%">
+          <p>Nombre: Marcos</p>
+          <p>Apellidos: Zotes Calleja</p>
+          <p>Email: mzotesc@outlook.com</p>
+          <p>Teléfono: 671958158</p>
+        </div>
       </div>
     </div>
-    <p>Nombre: Carlos</p>
-    <p>Apellidos: Castillo González</p>
-    <p>Fecha de Nacimiento: 8 de mayo de 1997</p>
-    <p>Email: carlos.castillog7@gmail.com</p>
-    <p>Lugar de nacimiento: Madrid, España</p>
-    <!-- datos personales fin -->
-
   </div> <!-- fin jumbotron -->
 </div> <!-- fin container -->
-
 <div class="row h-full">
   <div class="col-8 offset-2 col-lg-8 offset-lg-2 align-self-center espacio">
     <div class="gameplay">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3032.0353985694915!2d-3.622504584503968!3d40.54080707935099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422d01b98d4e8b%3A0xe4a0296a5c623e29!2sAv.%20Severo%20Ochoa%2C%2012%2C%2028703%20San%20Sebasti%C3%A1n%20de%20los%20Reyes%2C%20Madrid!5e0!3m2!1ses!2ses!4v1591858808192!5m2!1ses!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>        
+      <iframe width="20%" height="20%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.5359842141606!2d-3.836747784350537!3d40.44127256206987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4185cfe04a3987%3A0x50d6db0ba10cb305!2sUniversidad%20Francisco%20de%20Vitoria!5e0!3m2!1ses!2ses!4v1620214878667!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>      
     </div>
   </div>
 </div>
+
+
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -149,3 +180,5 @@
 
 </body>
 </html>
+
+

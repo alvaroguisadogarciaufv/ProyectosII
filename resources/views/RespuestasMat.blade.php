@@ -125,15 +125,15 @@ label{
           <a class="dropdown-item" href="fisica">Física</a>
       </div>
     </li>
-    <li class="nav-item">
+  <!--  <li class="nav-item">
       <a class="nav-link" href="profesores">Profesores</a>
-    </li>
+    </li> -->
     <li class="nav-item">
       <a class="nav-link" href="contacto">Contacto</a>
     </li>
-    <li class="nav-item">
+   <!-- <li class="nav-item">
       <a class="nav-link" href="perfil">Perfil</a>
-    </li>
+    </li> -->
 </nav>
 <!-- barra de navegación fin -->
 
@@ -150,10 +150,10 @@ label{
         </div>
        <div>
           <h3 class="respuestas">
-            <a>¿Cuanto es 1 + 1?</a>
+            <a>¿Pregunta?</a>
           </h3>
         </div>
-        <div><p class="respuestas">Soy subnormal y no se hacer el 1 + 1</p>
+        <div><p class="respuestas">Respuesta</p>
         </div>
     </div>
     <hr>
@@ -174,7 +174,7 @@ label{
         <h4 class="respuestas">
             <a>Profesor1 respode: </a>
           </h4>
-        <div><p class="respuestas">La respuesta es 2 pedazo de desecho humano</p>
+        <div><p class="respuestas">La respuesta es 2 </p>
         </div>
         <div>
           <button class="btn"><i class="fa fa-thumbs-up"></i></button>

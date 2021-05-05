@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('template_title')
-    Usuario
+    Usuarios
 @endsection
 
 @section('content')
@@ -10,15 +10,17 @@
             <div class="col-sm-12">
                 <div class="card">
                     <div class="card-header">
+                    <h2 style="color:black; text-align:center"  >Usuarios registrados para recibir notificaciones.</h2>
+
                         <div style="display: flex; justify-content: space-between; align-items: center;">
 
                             <span id="card_title">
                                 {{ __('Usuario') }}
                             </span>
 
-                             <div class="float-right">
+                             <div style="" class="float-right">
                                 <a href="{{ route('usuarios.create') }}" class="btn btn-primary btn-sm float-right"  data-placement="left">
-                                  {{ __('Create New') }}
+                                  {{ __('Registrarse') }}
                                 </a>
                               </div>
                         </div>
@@ -51,16 +53,18 @@
                                             
 											<td>{{ $usuario->nombre }}</td>
 											<td>{{ $usuario->apellidos }}</td>
-											<td>{{ $usuario->pass }}</td>
+											<td style="display:none">{{ $usuario->pass }}</td>
 											<td>{{ $usuario->email }}</td>
+                                            
+                                            
 
                                             <td>
                                                 <form action="{{ route('usuarios.destroy',$usuario->id) }}" method="POST">
-                                                    <a class="btn btn-sm btn-primary " href="{{ route('usuarios.show',$usuario->id) }}"><i class="fa fa-fw fa-eye"></i> Show</a>
-                                                    <a class="btn btn-sm btn-success" href="{{ route('usuarios.edit',$usuario->id) }}"><i class="fa fa-fw fa-edit"></i> Edit</a>
+                                                    <a class="btn btn-sm btn-primary " href="{{ route('usuarios.show',$usuario->id) }}"><i class="fa fa-fw fa-eye"></i> Detalles</a>
+                                                    <a class="btn btn-sm btn-success" href="{{ route('usuarios.edit',$usuario->id) }}"><i class="fa fa-fw fa-edit"></i> Editar</a>
                                                     @csrf
                                                     @method('DELETE')
-                                                    <button type="submit" class="btn btn-danger btn-sm"><i class="fa fa-fw fa-trash"></i> Delete</button>
+                                                    <button type="submit" class="btn btn-danger btn-sm"><i class="fa fa-fw fa-trash"></i> Eliminar</button>
                                                 </form>
                                             </td>
                                         </tr>
