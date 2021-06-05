@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class Preguntasm extends Migration
+class Preguntasl extends Migration
 {
     /**
      * Run the migrations.
@@ -13,14 +13,14 @@ class Preguntasm extends Migration
      */
     public function up()
     {
-        Schema::create('preguntasm', function (Blueprint $table) {
+        Schema::create('preguntasl', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('titulo');
             $table->string('descripcion');
             $table->string('respuesta');
             $table->timestamps();
         });
-       
+
     }
 
     /**

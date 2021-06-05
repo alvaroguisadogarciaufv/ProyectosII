@@ -19,6 +19,8 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::resource('preguntasl',App\Http\Controllers\PreguntaslController::class)->middleware('auth');
+
 Route::resource('preguntasm',App\Http\Controllers\PreguntasmController::class)->middleware('auth');
 
 Route::get('contacto', [App\Http\Controllers\ContactoController::class, 'index']);

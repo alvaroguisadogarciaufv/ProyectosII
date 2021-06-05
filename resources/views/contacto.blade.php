@@ -28,8 +28,8 @@
       </a>
       <div class="dropdown-menu">
           <a class="dropdown-item" href="preguntasm">Matematicas</a>
-          <a class="dropdown-item" href="preguntasm">Lengua</a>
-          <a class="dropdown-item" href="preguntasm">Física</a>
+          <a class="dropdown-item" href="preguntasl">Lengua</a>
+          <a class="dropdown-item" href="preguntasf">Física</a>
       </div>
     </li>
     <!-- <li class="nav-item">
@@ -60,8 +60,8 @@
       </a>
       <div class="dropdown-menu">
           <a class="dropdown-item" href="preguntasm">Matematicas</a>
-          <a class="dropdown-item" href="preguntasm">Lengua</a>
-          <a class="dropdown-item" href="preguntasm">Física</a>
+          <a class="dropdown-item" href="preguntasl">Lengua</a>
+          <a class="dropdown-item" href="preguntasf">Física</a>
       </div>
     </li>
     <!-- <li class="nav-item">

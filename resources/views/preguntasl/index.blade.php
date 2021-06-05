@@ -1,5 +1,3 @@
-
-<!-- matematicas -->
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 <head>
@@ -138,7 +136,7 @@ label{
 </nav>
 <!-- barra de navegación fin -->
 @section('template_title')
-    Preguntasm
+    Foro Lengua
 @endsection
 
 @section('content')
@@ -150,11 +148,11 @@ label{
                         <div style="display: flex; justify-content: space-between; align-items: center;">
 
                             <span id="card_title">
-                                {{ __('Preguntas - Foro de matemáticas.') }}
+                                {{ __('Preguntas - Foro de lengua.') }}
                             </span>
 
                              <div class="float-right">
-                                <a href="{{ route('preguntasm.create') }}" class="btn btn-primary btn-sm float-right"  data-placement="left">
+                                <a href="{{ route('preguntasl.create') }}" class="btn btn-primary btn-sm float-right"  data-placement="left">
                                   {{ __('Nueva pregunta') }}
                                 </a>
                               </div>
@@ -181,17 +179,17 @@ label{
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @foreach ($preguntasms as $preguntasm)
+                                    @foreach ($preguntasls as $preguntasl)
                                         <tr>
                                             <td>{{ ++$i }}</td>
                                             
-											<td>{{ $preguntasm->titulo }}</td>
-											<td>{{ $preguntasm->descripcion }}</td>
-											<td>{{ $preguntasm->respuesta }}</td>
+											<td>{{ $preguntasl->titulo }}</td>
+											<td>{{ $preguntasl->descripcion }}</td>
+											<td>{{ $preguntasl->respuesta }}</td>
 
                                             <td>
-                                                <form action="{{ route('preguntasm.destroy',$preguntasm->id) }}" method="POST">
-                                                    <a class="btn btn-sm btn-primary " href="{{ route('preguntasm.show',$preguntasm->id) }}"><i class="fa fa-fw fa-eye"></i>Ver pregunta</a>
+                                                <form action="{{ route('preguntasl.destroy',$preguntasl->id) }}" method="POST">
+                                                    <a class="btn btn-sm btn-primary " href="{{ route('preguntasl.show',$preguntasl->id) }}"><i class="fa fa-fw fa-eye"></i>Ver pregunta</a>
                                                     @csrf
                                                     @method('DELETE')
                                                     <button type="submit" class="btn btn-danger btn-sm"><i class="fa fa-fw fa-trash"></i> Delete</button>
@@ -204,7 +202,7 @@ label{
                         </div>
                     </div>
                 </div>
-                {!! $preguntasms->links() !!}
+                {!! $preguntasls->links() !!}
             </div>
         </div>
     </div>
