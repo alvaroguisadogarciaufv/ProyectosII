@@ -58,7 +58,7 @@
 
 <!-- trayectoria ubisoft  -->
 <div class="container" id="carlos">
-  <div class="jumbotron">
+  <div class="jumbotron" style="background-color: rgba(4, 97, 135, 0.8)">
     <h1>StackOverLearn</h1>
   </div> <!-- fin jumbotron -->
 
@@ -97,7 +97,7 @@
   </a>
 </div>
 <!-- carousel fin -->
-  <div class="jumbotron">
+  <div class="jumbotron" style="background-color: rgba(4, 97, 135, 0.8)">
   	<p>Nuestro producto ofrece un servicio, a modo de red social, que permite a sus usuarios buscar y ponerse en contacto con otras personas para ofrecer un servicio educativo, además de ofrecer un espacio para compartir conocimiento.</p>
     <p>Nuestro producto les ofrece tanto a alumnos como profesores un espacio donde
 pueden ayudarse mutuamente. De esta forma, los alumnos que necesitan ayuda en sus estudios pueden

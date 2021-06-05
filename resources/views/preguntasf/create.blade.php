@@ -12,9 +12,11 @@
                 @includeif('partials.errors')
 
                 <div class="card card-default">
-                    <div class="card-header">
+                    <div class="card-header" style="text-align:center">
                         <span class="card-title" >Nueva pregunta para el foro.</span>
-                        <a class="btn btn-primary" href="{{ route('preguntasf.index') }}"> Back</a>
+                        <div class="float-right">
+                            <a class="btn btn-primary" href="{{ route('preguntasf.index') }}"> Atrás</a>
+                        </div>
                     </div>
                 
                     <div class="card-body">

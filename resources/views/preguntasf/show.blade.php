@@ -10,11 +10,11 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <div class="float-left">
-                            <span class="card-title">Mostrar pregunta</span>
+                        <div class="float-left" style="text-align:center">
+                            <span class="card-title" style="text-align:center">Pregunta mostrada</span>
                         </div>
                         <div class="float-right">
-                            <a class="btn btn-primary" href="{{ route('preguntasf.index') }}"> Back</a>
+                            <a class="btn btn-primary" href="{{ route('preguntasf.index') }}"> Atrás</a>
                         </div>
                     </div>
 
@@ -34,7 +34,7 @@
                         </div>
 
                     </div>
-                    <a class="btn btn-sm btn-success" href="{{ route('preguntasf.edit',$preguntasf->id) }}"><i class="fa fa-fw fa-edit"></i> Editar</a>
+                    <a class="btn btn-sm btn-success" href="{{ route('preguntasf.edit',$preguntasf->id) }}"><i class="fa fa-fw fa-edit"></i> Responder</a>
 
                 </div>
             </div>

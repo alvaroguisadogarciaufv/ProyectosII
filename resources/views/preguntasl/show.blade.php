@@ -11,10 +11,10 @@
                 <div class="card">
                     <div class="card-header">
                         <div class="float-left">
-                            <span class="card-title">Show Preguntasm</span>
+                            <span class="card-title">Mostrar preguntas</span>
                         </div>
                         <div class="float-right">
-                            <a class="btn btn-primary" href="{{ route('preguntasl.index') }}"> Back</a>
+                            <a class="btn btn-primary" href="{{ route('preguntasl.index') }}"> Atrás</a>
                         </div>
                     </div>
 
@@ -34,7 +34,7 @@
                         </div>
 
                     </div>
-                    <a class="btn btn-sm btn-success" href="{{ route('preguntasl.edit',$preguntasl->id) }}"><i class="fa fa-fw fa-edit"></i> Editar</a>
+                    <a class="btn btn-sm btn-success" href="{{ route('preguntasl.edit',$preguntasl->id) }}"><i class="fa fa-fw fa-edit"></i> Responder</a>
 
                 </div>
             </div>

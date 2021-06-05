@@ -79,7 +79,7 @@
 
 <!-- formulario -->
 <div class="container">
-  <div class="jumbotron">
+  <div class="jumbotron" style="background-color: rgba(4, 97, 135, 0.8)">
     
     <hr>
     <!-- datos personales  -->

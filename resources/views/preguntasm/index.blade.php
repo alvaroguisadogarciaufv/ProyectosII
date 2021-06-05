@@ -149,8 +149,8 @@ label{
                     <div class="card-header">
                         <div style="display: flex; justify-content: space-between; align-items: center;">
 
-                            <span id="card_title">
-                                {{ __('Preguntas - Foro de matemáticas.') }}
+                            <span id="card_title" style="text-align:center" >
+                               Preguntas - Foro de matemáticas
                             </span>
 
                              <div class="float-right">
@@ -173,9 +173,9 @@ label{
                                     <tr>
                                         <th>No</th>
                                         
-										<th>Titulo</th>
-										<th>Descripcion</th>
-										<th>Respuesta</th>
+										<th style="color:black">Titulo</th>
+										<th style="color:black">Descripcion</th>
+										<th style="color:black">Respuesta</th>
 
                                         <th></th>
                                     </tr>
@@ -194,7 +194,6 @@ label{
                                                     <a class="btn btn-sm btn-primary " href="{{ route('preguntasm.show',$preguntasm->id) }}"><i class="fa fa-fw fa-eye"></i>Ver pregunta</a>
                                                     @csrf
                                                     @method('DELETE')
-                                                    <button type="submit" class="btn btn-danger btn-sm"><i class="fa fa-fw fa-trash"></i> Delete</button>
                                                 </form>
                                             </td>
                                         </tr>

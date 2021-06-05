@@ -171,9 +171,9 @@ label{
                                     <tr>
                                         <th>No</th>
                                         
-										<th>Titulo</th>
-										<th>Descripcion</th>
-										<th>Respuesta</th>
+										<th style="color:black">Título</th>
+										<th style="color:black">Descripción</th>
+										<th style="color:black">Respuesta</th>
 
                                         <th></th>
                                     </tr>
@@ -192,7 +192,6 @@ label{
                                                     <a class="btn btn-sm btn-primary " href="{{ route('preguntasl.show',$preguntasl->id) }}"><i class="fa fa-fw fa-eye"></i>Ver pregunta</a>
                                                     @csrf
                                                     @method('DELETE')
-                                                    <button type="submit" class="btn btn-danger btn-sm"><i class="fa fa-fw fa-trash"></i> Delete</button>
                                                 </form>
                                             </td>
                                         </tr>
