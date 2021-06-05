@@ -1,27 +1,26 @@
 @extends('layouts.app')
 
 @section('template_title')
-    Crear Pregunta
+    Respuesta
 @endsection
 
 @section('content')
     <section class="content container-fluid">
-        <div class="row">
+        <div class="">
             <div class="col-md-12">
 
                 @includeif('partials.errors')
 
                 <div class="card card-default">
                     <div class="card-header">
-                        <span class="card-title" >Nueva pregunta para el foro.</span>
-                        <a class="btn btn-primary" href="{{ route('preguntasm.index') }}"> Back</a>
+                        <span class="card-title">Respuesta a la pregunta.</span>
                     </div>
-                
                     <div class="card-body">
-                        <form method="POST" action="{{ route('preguntasm.store') }}"  role="form" enctype="multipart/form-data">
+                        <form method="POST" action="{{ route('preguntasf.update', $preguntasf->id) }}"  role="form" enctype="multipart/form-data">
+                            {{ method_field('PATCH') }}
                             @csrf
 
-                            @include('preguntasm.form')
+                            @include('preguntasf.formedit')
 
                         </form>
                     </div>

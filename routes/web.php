@@ -19,25 +19,17 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::get('contacto', [App\Http\Controllers\ContactoController::class, 'index'])->middleware('auth');
+
+Route::get('home', [App\Http\Controllers\HomeController::class, 'index']);
+
+Route::resource('preguntasf',App\Http\Controllers\PreguntasfController::class)->middleware('auth');
+
 Route::resource('preguntasl',App\Http\Controllers\PreguntaslController::class)->middleware('auth');
 
 Route::resource('preguntasm',App\Http\Controllers\PreguntasmController::class)->middleware('auth');
 
-Route::get('contacto', [App\Http\Controllers\ContactoController::class, 'index']);
-
-Route::get('fisica', [App\Http\Controllers\FisicaController::class, 'index'])->middleware('auth');
-
-Route::get('home', [App\Http\Controllers\HomeController::class, 'index']);
-
-Route::get('lengua', [App\Http\Controllers\LenguaController::class, 'index'])->middleware('auth');
-
-Route::get('matematicas', [App\Http\Controllers\MatematicasController::class, 'index'])->middleware('auth');
-
-Route::get('perfil', [App\Http\Controllers\PerfilController::class, 'index'])->middleware('auth');
-
-Route::get('profesores', [App\Http\Controllers\ProfesorController::class, 'index'])->middleware('auth');
-
-Route::get('welcome', [App\Http\Controllers\WelcomeController::class, 'index']);
+Route::get('welcome', [App\Http\Controllers\WelcomeController::class, 'index'])->middleware('auth');
 
 
 Route::get('messages', 'ChatsController@fetchMessages');
