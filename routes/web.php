@@ -27,7 +27,7 @@ Route::resource('preguntasf',App\Http\Controllers\PreguntasfController::class)->
 
 Route::resource('preguntasl',App\Http\Controllers\PreguntaslController::class)->middleware('auth');
 
-Route::resource('preguntasm',App\Http\Controllers\PreguntasmController::class);
+Route::resource('preguntasm',App\Http\Controllers\PreguntasmController::class)->middleware('auth');
 
 Route::get('welcome', [App\Http\Controllers\WelcomeController::class, 'index'])->middleware('auth');
 
